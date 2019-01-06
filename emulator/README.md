@@ -1,6 +1,6 @@
-# Android build GitHub Action
+# Android emulator GitHub Action
 
-A GitHub Action for building Android projects.
+A GitHub Action for running Android UI tests on Android emulator.
 
 License
 -------
