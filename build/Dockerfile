@@ -5,7 +5,7 @@ FROM vgaidarji/docker-android-build:1.0.0
 ###################
 LABEL "com.github.actions.name"="Android Build"
 LABEL "com.github.actions.description"="Build Android projects"
-LABEL "com.github.actions.icon"="package"
+LABEL "com.github.actions.icon"="box"
 LABEL "com.github.actions.color"="green"
 
 LABEL "repository"="https://github.com/vgaidarji/android-github-actions/build"
