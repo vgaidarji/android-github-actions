@@ -2,6 +2,21 @@
 
 A GitHub Action for running Android UI tests on Android emulator.
 
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/3036347/51520441-5120a900-1e2c-11e9-9d86-1f367ade6e7e.png">
+
+### Usage
+
+```
+action "Run UI Tests" {
+  needs = ["Build"]
+  uses = "vgaidarji/android-github-actions/emulator@v1.0.0"
+}
+```
+
+Under the hood `vgaidarji/android-github-actions/emulator` action runs `./gradlew connectedAndroidTest` to run UI tests.
+See [ui-tests-on-emulator.sh](https://github.com/vgaidarji/docker-android/blob/master/docker-android-emulator/ui-tests-on-emulator.sh)
+script content for more details.
+
 License
 -------
 
